@@ -14,7 +14,7 @@ const placesRoute = require("./routes/places.routes");
 
 //comment out before building for production
 const devBundle = require("./devBundle");
-const { corsOptions } = require("../config/network");
+const { corsOptions } = require("./config/network");
 
 const CURRENT_WORKING_DIR = process.cwd();
 const app = express();
